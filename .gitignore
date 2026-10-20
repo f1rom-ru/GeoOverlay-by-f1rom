@@ -1,0 +1,19 @@
+# окружение и IDE
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# результаты сборки exe
+build/
+dist/
+*.spec
+
+# кеш признаков галереи (около 200 МБ, пересчитывается автоматически)
+geoclip_loc_feats.pt
+
+# старые и временные скрипты сборки
+build_exe.bat
+build_geo.bat
+build2.bat
+main.py
